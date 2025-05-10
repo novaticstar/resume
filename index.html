@@ -14,49 +14,201 @@
         <nav>
             <a href="#about">About</a>
             <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
             <a href="#education">Education</a>
             <a href="#skills">Skills</a>
+            <a href="#leadership">Leadership</a>
         </nav>
+        <div class="contact-info">
+            <span>Charlottesville, VA</span> |
+            <span>(240) – 728 – 4217</span> |
+            <span><a href="mailto:mattmwork2022@gmail.com">mattmwork2022@gmail.com</a></span> |
+            <span><a href="https://www.linkedin.com/in/matthew-martin-swe" target="_blank">LinkedIn</a></span> |
+            <span><a href="https://github.com/NovaticStar" target="_blank">GitHub</a></span>
+        </div>
     </header>
     <main>
         <section id="about">
-            <h2>About</h2>
-            <p>Passionate software engineer with 5+ years of experience building scalable web applications.</p>
+            <h2>Personal</h2>
+            <ul>
+                <li>Undergraduate Student @ UVA’s Engineering School</li>
+                <li>Project Manager @ Project Code UVA (leads a team of 40)</li>
+                <li>Member, Diversity Student Council for UVA Engineering</li>
+                <li>Member, National Society of Black Engineers (NSBE)</li>
+                <li>Member, Vietnamese Student Association (VSA); attended MAUVSA’s yearly conference; Lions Scholarship recipient</li>
+            </ul>
         </section>
         <section id="experience">
-            <h2>Experience</h2>
+            <h2>Professional Experience</h2>
             <div class="job">
-                <h3>Senior Developer - Acme Corp</h3>
-                <span>2021 - Present</span>
+                <h3>Technical Specialist Intern – PWCS</h3>
+                <span>Mar 2024 – May 2024 | Lake Ridge, VA</span>
                 <ul>
-                    <li>Lead a team of 5 engineers to deliver enterprise solutions.</li>
-                    <li>Improved application performance by 30%.</li>
+                    <li>Provided hands-on support across a distributed school district, handling device updates, repairs, and imaging.</li>
+                    <li>Enhanced issue resolution efficiency by 17% through responsive support via Zendesk.</li>
+                    <li>Managed warranty coordination and inventory cycles, ensuring minimized device downtime.</li>
                 </ul>
+                <p><strong>Impact:</strong> Developed strong troubleshooting and lifecycle management skills in an enterprise IT environment, supporting thousands of end-users efficiently.</p>
             </div>
             <div class="job">
-                <h3>Developer - Beta Inc</h3>
-                <span>2018 - 2021</span>
+                <h3>Technical Business Analyst Intern – BLN24</h3>
+                <span>May 2022 – Jan 2024 | Tysons Corner, VA</span>
                 <ul>
-                    <li>Developed RESTful APIs and front-end features.</li>
+                    <li>Spearheaded introduction of project tracking infrastructure (ticket systems, templates, Agile tools).</li>
+                    <li>Drove a 30% increase in workflow efficiency by streamlining project management in Jira/Trello.</li>
+                    <li>Transitioned into technical exploration, learning and applying AWS, Angular, and Figma prototyping tools.</li>
                 </ul>
+                <p><strong>Impact:</strong> Strengthened business-technical collaboration and boosted project visibility while gaining a foundation in cloud infrastructure and frontend design systems.</p>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Project Summaries</h2>
+            <div class="project">
+                <h3>KitchenShare (CS 3240 Class Project)</h3>
+                <p><strong>Purpose:</strong> Django-based web app for sharing and managing kitchen items in a community. Supports user roles, item borrowing, collection management, issue reporting, messaging, and moderation.</p>
+                <ul>
+                    <li>Requirements Engineer: Led requirements elicitation, user stories, and feature/issue tracking.</li>
+                    <li>Implemented user moderation, dynamic forms, item request handling, and secure item deletion.</li>
+                    <li>Agile team of 5; used GitHub Projects, Actions, and Heroku for CI/CD and deployment.</li>
+                </ul>
+                <details>
+                    <summary>Key Features & Implementation</summary>
+                    <ul>
+                        <li>User roles (Patron/Librarian), promotion/demotion, group-based access</li>
+                        <li>Item/collection management, public/private settings</li>
+                        <li>Borrowing workflow with request statuses</li>
+                        <li>Issue reporting and moderation dashboard</li>
+                        <li>Messaging with real-time updates</li>
+                        <li>Secure item deletion (PostgreSQL & S3)</li>
+                        <li>Ratings for items and users</li>
+                        <li>Backend: Django/PostgreSQL; Frontend: Bootstrap 5; Auth: Google OAuth</li>
+                    </ul>
+                </details>
+            </div>
+            <div class="project">
+                <h3>A.Eyes (Project Code CIO Project)</h3>
+                <p><strong>Purpose:</strong> React Native app for visually impaired users, providing real-time image recognition, descriptive AI, and conversational interaction.</p>
+                <ul>
+                    <li>Project Manager: Led team, coordinated sprints, set milestones, and managed Agile workflow.</li>
+                    <li>Integrated Hugging Face BLIP for image captioning, Zephyr-7B for Q&A, and ElevenLabs for TTS/STT.</li>
+                    <li>Ensured full accessibility with voice input/output and screen-reader support.</li>
+                </ul>
+                <details>
+                    <summary>Key Features & Implementation</summary>
+                    <ul>
+                        <li>Image capture, AI-powered captioning, and conversational follow-up</li>
+                        <li>Text-to-speech and speech-to-text integration</li>
+                        <li>Local storage of interaction history</li>
+                        <li>Agile practices: Jira, GitHub Actions, CI/CD, frequent demos</li>
+                    </ul>
+                </details>
+            </div>
+            <div class="project">
+                <h3>CS 3130: Computer Systems & Organization</h3>
+                <p>Hands-on C programming: system architecture, memory management, concurrency, IPC, security, and performance analysis. Labs included parallel Game of Life, secure messaging, and side-channel attack simulation.</p>
+                <details>
+                    <summary>Selected Labs & Tools</summary>
+                    <ul>
+                        <li>String splitting utility, system call timing, fork/output collection</li>
+                        <li>Page table/TLB simulation, cache behavior, parallelization with OpenMP</li>
+                        <li>Security: side-channel attacks, secure messaging protocol</li>
+                        <li>Tools: GDB, Valgrind, POSIX threads, Linux CLI</li>
+                    </ul>
+                </details>
+            </div>
+            <div class="project">
+                <h3>CS 3250: Software Testing</h3>
+                <p>Java-based coursework in unit testing (JUnit), property-based testing, coverage analysis, mutation testing, and test automation. Designed and executed test suites for data structures and graph libraries.</p>
+                <details>
+                    <summary>Highlights & Tools</summary>
+                    <ul>
+                        <li>JUnit, Maven, JaCoCo, PIT mutation testing</li>
+                        <li>Test suite design for SLList and graph libraries</li>
+                        <li>Automated test generation and coverage improvement</li>
+                    </ul>
+                </details>
+            </div>
+            <div class="project">
+                <h3>CS 3100: Data Structures & Algorithms II</h3>
+                <p>Advanced algorithms: graph theory, dynamic programming, greedy algorithms, shortest paths, MSTs, NP-completeness. Implemented in Python with NetworkX.</p>
+                <details>
+                    <summary>Selected Projects & Tools</summary>
+                    <ul>
+                        <li>Greedy scheduling, dynamic programming, union-find, A* search, MSTs</li>
+                        <li>Python, NetworkX, custom test cases, Git version control</li>
+                    </ul>
+                </details>
+            </div>
+            <div class="project">
+                <h3>STS 1800: Business Fundamentals</h3>
+                <p>Business, finance, entrepreneurship, and strategy for engineers. Case studies, financial modeling, and leadership analysis.</p>
+                <details>
+                    <summary>Assignments & Tools</summary>
+                    <ul>
+                        <li>Financial projections, case analysis, marketing strategy, leadership reflection</li>
+                        <li>Excel, Harvard Business Publishing, IRR/DCF calculators</li>
+                    </ul>
+                </details>
+            </div>
+            <div class="project">
+                <h3>CS 3710: Introduction to Cybersecurity</h3>
+                <p>Cybersecurity principles, hands-on labs with Nmap, Wireshark, Metasploit, Snort, and GnuPG. Final CTF-style exam tested real-world defense and attack skills.</p>
+                <details>
+                    <summary>Labs & Tools</summary>
+                    <ul>
+                        <li>Network scanning, password cracking, vulnerability exploitation, firewall configuration</li>
+                        <li>Linux/Bash, Virginia Cyber Range, John the Ripper, Metasploit</li>
+                    </ul>
+                </details>
             </div>
         </section>
         <section id="education">
             <h2>Education</h2>
-            <p>B.Sc. in Computer Science, University of Example, 2014-2018</p>
+            <p>University of Virginia | BS – Computer Science | Minor – Engineering Business | May 2026</p>
         </section>
         <section id="skills">
             <h2>Skills</h2>
             <ul class="skills-list">
-                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>REST APIs</li>
                 <li>React</li>
-                <li>Node.js</li>
+                <li>Web Development</li>
+                <li>Django</li>
+                <li>Expo</li>
+                <li>AWS</li>
+                <li>GitHub Actions</li>
+                <li>CI/CD</li>
+                <li>Azure</li>
+                <li>Linux</li>
+                <li>VS Code</li>
+                <li>Figma</li>
+                <li>Jira</li>
+                <li>Agile/Scrum</li>
+                <li>Trello</li>
+                <li>Project Management</li>
+                <li>Microsoft Office</li>
+                <li>Machine Learning</li>
+                <li>AI</li>
+                <li>Data Structures & Algorithms</li>
+                <li>PyTorch</li>
+                <li>PostgreSQL</li>
                 <li>SQL</li>
+                <li>Computer Systems & Organization</li>
+                <li>Software Testing</li>
+            </ul>
+        </section>
+        <section id="leadership">
+            <h2>Clubs & Leadership Experience</h2>
+            <ul>
+                <li>Project Manager, Project Code (38-member team) | University of Virginia | August 2024 – Present</li>
+                <li>Engineering Diversity Student Council Member | University of Virginia | August 2024 – Present</li>
+                <li>National Society of Black Engineers | University of Virginia | August 2024 – Present</li>
             </ul>
         </section>
     </main>
     <footer>
-        <p>Contact: johndoe@email.com</p>
+        <p>Contact: <a href="mailto:mattmwork2022@gmail.com">mattmwork2022@gmail.com</a></p>
         <button id="theme-toggle">Toggle Theme</button>
     </footer>
     <script src="main.js"></script>
