@@ -9,22 +9,19 @@
 </head>
 <body>
     <header>
-        <h1>Matthew Martin</h1>
-        <p>Software Engineer</p>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
-            <a href="#skills">Skills</a>
-            <a href="#leadership">Leadership</a>
-        </nav>
-        <div class="contact-info">
-            <span>Charlottesville, VA</span> |
-            <span>(240) – 728 – 4217</span> |
-            <span><a href="mailto:mattmwork2022@gmail.com">mattmwork2022@gmail.com</a></span> |
-            <span><a href="https://www.linkedin.com/in/matthew-martin-swe" target="_blank">LinkedIn</a></span> |
-            <span><a href="https://github.com/NovaticStar" target="_blank">GitHub</a></span>
+        <div class="header-top">
+            <div class="header-left">
+                <h1>Matthew Martin</h1>
+                <p>Software Engineer</p>
+            </div>
+            <nav class="header-nav">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#leadership">Leadership</a>
+            </nav>
         </div>
     </header>
     <main>
@@ -64,7 +61,7 @@
         <section id="projects">
             <h2>Project Summaries</h2>
             <div class="project">
-                <h3>KitchenShare (CS 3240 Class Project)</h3>
+                <h3>KitchenShare</h3>
                 <p><strong>Purpose:</strong> Django-based web app for sharing and managing kitchen items in a community. Supports user roles, item borrowing, collection management, issue reporting, messaging, and moderation.</p>
                 <ul>
                     <li>Requirements Engineer: Led requirements elicitation, user stories, and feature/issue tracking.</li>
@@ -103,6 +100,10 @@
                     </ul>
                 </details>
             </div>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <p style="margin-bottom: 20px;"><i>University of Virginia | BS – Computer Science | Minor – Engineering Business | May 2026</i></p>
             <div class="project">
                 <h3>CS 3130: Computer Systems & Organization</h3>
                 <p>Hands-on C programming: system architecture, memory management, concurrency, IPC, security, and performance analysis. Labs included parallel Game of Life, secure messaging, and side-channel attack simulation.</p>
@@ -162,10 +163,6 @@
                 </details>
             </div>
         </section>
-        <section id="education">
-            <h2>Education</h2>
-            <p>University of Virginia | BS – Computer Science | Minor – Engineering Business | May 2026</p>
-        </section>
         <section id="skills">
             <h2>Skills</h2>
             <ul class="skills-list">
@@ -208,7 +205,13 @@
         </section>
     </main>
     <footer>
-        <p>Contact: <a href="mailto:mattmwork2022@gmail.com">mattmwork2022@gmail.com</a></p>
+        <div class="contact-info">
+            <span>Charlottesville, VA</span> |
+            <span>(240) – 728 – 4217</span> |
+            <span><a href="mailto:mattmwork2022@gmail.com">mattmwork2022@gmail.com</a></span> |
+            <span><a href="https://www.linkedin.com/in/matthew-martin-swe" target="_blank">LinkedIn</a></span> |
+            <span><a href="https://github.com/NovaticStar" target="_blank">GitHub</a></span>
+        </div>
         <button id="theme-toggle">Toggle Theme</button>
     </footer>
     <script src="main.js"></script>
