@@ -82,7 +82,7 @@ header {
 }
 
 .header-nav a:hover, .header-nav a:focus {
-    color: #181c23;
+    color: #eaf1ff;
 }
 
 .header-nav a::after {
