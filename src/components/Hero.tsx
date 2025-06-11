@@ -35,7 +35,7 @@ export default function Hero() {
                         view my resume
                         </a>
                         <a href="#experience" className="text-gray-700 bg-gradient-to-b from-transparent to-white/20 backdrop-blur-lg border border-white/20 hover:text-blue-600 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/50 px-3 py-2 rounded-md transition-all duration-300">
-                        see my experiences
+                        see my projects
                         </a>
                     </div>
                 </div>

@@ -28,7 +28,7 @@ export default function Header() {
         </div>
         <div className="hidden md:flex space-x-6">
           <a href="#about" className="text-gray-700 hover:text-blue-600 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/50 px-3 py-2 rounded-md transition-all duration-300">view my resume</a>
-          <a href="#experience" className="text-gray-700 hover:text-blue-600 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/50 px-3 py-2 rounded-md transition-all duration-300">see my experiences</a>
+          <a href="#experience" className="text-gray-700 hover:text-blue-600 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/50 px-3 py-2 rounded-md transition-all duration-300">see my projects</a>
         </div>
         {/* Mobile menu button */}
         <button className="md:hidden">
