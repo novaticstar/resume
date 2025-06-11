@@ -2,45 +2,24 @@ export default function ProjectScroll() {
   const projects = [
     {
       name: "A.Eyes",
-      desc: "The easiest way to run TypeScript in Node.js",
-      downloads: "33.9M/month",
-      stars: "10,819",
-      color: "bg-gradient-to-br from-green-500 to-blue-600",
+      desc: "AI powered object recognition application for the visually impaired",
+      downloads: "Mobile App",
+      stars: "1st Place Winner",
+      color: "bg-gradient-to-br from-white-500 to-blue-600",
     },
     {
       name: "Timeback",
-      desc: "Zero-config package bundler for Node.js + TypeScript",
-      downloads: "182.2K/month",
-      stars: "1,427",
+      desc: "AI focused calendar application with smart scheduling",
+      downloads: "Coming Soon",
+      stars: "In Development",
       color: "bg-gradient-to-br from-pink-500 to-purple-600",
     },
     {
-      name: "nova's Complaint Management Agent",
-      desc: "Find the true size of an npm package",
-      downloads: "",
-      stars: "",
-      color: "bg-gradient-to-br from-black to-gray-900",
-    },
-        {
-      name: "A.Eyes",
-      desc: "The easiest way to run TypeScript in Node.js",
-      downloads: "33.9M/month",
-      stars: "10,819",
-      color: "bg-gradient-to-br from-green-500 to-blue-600",
-    },
-    {
-      name: "Timeback",
-      desc: "Zero-config package bundler for Node.js + TypeScript",
-      downloads: "182.2K/month",
-      stars: "1,427",
-      color: "bg-gradient-to-br from-pink-500 to-purple-600",
-    },
-    {
-      name: "nova's Complaint Management Agent",
-      desc: "Find the true size of an npm package",
-      downloads: "",
-      stars: "",
-      color: "bg-gradient-to-br from-black to-gray-900",
+      name: "Nova's Complaint Management Agent",
+      desc: "Full-stack application with Supabase and React",
+      downloads: "Web App",
+      stars: "Completed",
+      color: "bg-gradient-to-br from-blue-600 to-purple-700",
     }
   ];
 
