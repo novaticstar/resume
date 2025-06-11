@@ -41,7 +41,7 @@ export default function Hero() {
                 </div>
                 <div>
                     <Image
-                        src="/images/placeholder_img.png"
+                        src="/images/temp_img.png"
                         alt="Matthew Martin - Placeholder"
                         width={320}
                         height={320}
