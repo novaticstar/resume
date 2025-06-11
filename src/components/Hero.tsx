@@ -12,11 +12,13 @@ export default function Hero() {
       const timeout = setTimeout(() => {
         setDisplayText(prev => prev + fullText[currentIndex]);
         setCurrentIndex(prev => prev + 1);
-      }, 100); // Adjust speed here (lower = faster)
+      }, 100);
 
       return () => clearTimeout(timeout);
     }
   }, [currentIndex, fullText]);
+
+  const basePath = process.env.NODE_ENV === 'production' && !process.env.LOCAL_BUILD ? '/resume' : '';
 
   return (
     <section className="flex items-center justify-center h-screen bg-gradient-to-br from-gray-100 to-blue-300">
@@ -41,7 +43,7 @@ export default function Hero() {
                 </div>
                 <div>
                     <Image
-                      src="/images/temp_img.png" // Remove /resume prefix for dev
+                      src={`${basePath}/images/temp_img.png`}
                       alt="Matthew Martin - Placeholder"
                       width={320}
                       height={320}
