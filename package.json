@@ -1,7 +1,8 @@
 {
-  "name": "my-resume",
+  "name": "matthew-martin-resume",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://novaticstar.github.io/resume/",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
