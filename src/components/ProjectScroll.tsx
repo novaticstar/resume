@@ -4,22 +4,29 @@ export default function ProjectScroll() {
       name: "A.Eyes",
       desc: "AI powered object recognition application for the visually impaired",
       downloads: "Mobile App",
-      stars: "1st Place Winner",
-      color: "bg-gradient-to-br from-white-500 to-blue-600",
+      stars: "1st Place Winner @ Project Code",
+      color: "bg-gradient-to-br from-white via-blue-50 to-blue-300",
     },
     {
       name: "Timeback",
       desc: "AI focused calendar application with smart scheduling",
       downloads: "Coming Soon",
       stars: "In Development",
-      color: "bg-gradient-to-br from-pink-500 to-purple-600",
+      color: "bg-gradient-to-br from-white via-orange-50 to-orange-300",
     },
     {
-      name: "Nova's Complaint Management Agent",
+      name: "nova's Complaint Management Agent",
       desc: "Full-stack application with Supabase and React",
       downloads: "Web App",
       stars: "Completed",
-      color: "bg-gradient-to-br from-blue-600 to-purple-700",
+      color: "bg-gradient-to-br from-white via-purple-50 to-purple-300",
+    },
+    {
+      name: "KitchenShare",
+      desc: "Full-stack application with Django and React, using AWS for item storage",
+      downloads: "Web App",
+      stars: "Completed",
+      color: "bg-gradient-to-br from-white via-pink-50 to-pink-300",
     }
   ];
 
