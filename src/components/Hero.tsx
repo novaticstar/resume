@@ -41,7 +41,7 @@ export default function Hero() {
                 </div>
                 <div>
                     <Image
-                      src="/resume/images/temp_img.png" // Add /resume prefix
+                      src="/images/temp_img.png" // Remove /resume prefix for dev
                       alt="Matthew Martin - Placeholder"
                       width={320}
                       height={320}
