@@ -14,15 +14,13 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20' # or whatever Node version you're using
+          node-version: '20'
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Build & Export Next.js
-        run: |
-          npm run build
-          npm run export
+      - name: Build Next.js
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
