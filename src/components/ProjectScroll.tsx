@@ -38,7 +38,7 @@ export default function ProjectScroll() {
           {projects.map((proj, idx) => (
             <div
               key={idx}
-              className={`min-w-[300px] snap-center p-4 rounded-xl shadow-xl ${proj.color}`}
+              className={`min-w-[300px] snap-center p-16 rounded-xl shadow-xl ${proj.color}`}
             >
               <div className="text-sm opacity-75">
                 {proj.downloads && `📥 ${proj.downloads}`}<br />

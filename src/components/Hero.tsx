@@ -19,7 +19,7 @@ export default function Hero() {
   }, [currentIndex, fullText]);
 
   return (
-    <section className="flex items-center justify-center h-screen bg-gradient-to-br from-gray-100 to-blue-300">
+    <section className="flex items-center justify-center h-screen bg-gradient-to-br from-gray-100 to-blue-300 dark:bg-gradient-to-br dark:from-gray-800 dark:to-blue-900">
         <div className="text-center max-w-5xl p-6">
             <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
