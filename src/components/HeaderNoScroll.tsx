@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className={`fixed top-0 left-0 w-full z-50 bg-white/30 backdrop-blur-md shadow-md transition-transform duration-300 '-translate-y-full'
+    <header className={`top-0 left-0 w-full z-50 bg-white/30 backdrop-blur-md shadow-md transition-transform duration-300 '-translate-y-full'
     }`}>
       <nav className="max-w-6xl mx-auto flex justify-between items-center p-4">
         <div className="flex flex-col">
