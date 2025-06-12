@@ -1,3 +1,5 @@
 export default function AEyes() {
-    <div>test</div>
+    return (
+        <div>test</div>
+    );
 }

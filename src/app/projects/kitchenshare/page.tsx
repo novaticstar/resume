@@ -1,3 +1,5 @@
 export default function KitchenShare() {
-    <div>test</div>
+    return (
+        <div>test</div>
+    );
 }

@@ -1,3 +1,5 @@
 export default function ComplaintManagementAgent() {
-    <div>test</div>
+    return (
+        <div>test</div>
+    );
 }

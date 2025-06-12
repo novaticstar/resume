@@ -1,3 +1,5 @@
 export default function Timeback() {
-    <div>test</div>
+    return (
+        <div>test</div>
+    );
 }
