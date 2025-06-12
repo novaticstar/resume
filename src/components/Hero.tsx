@@ -21,7 +21,7 @@ export default function Hero() {
 
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-gray-50 to-blue-300">
-      <div className="max-w-4xl mx-auto px-4 py-16">
+      <div className="max-w-screen-xl mx-auto px-6 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Text Content */}
           <div className="space-y-8">
