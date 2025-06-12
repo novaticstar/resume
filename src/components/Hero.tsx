@@ -1,6 +1,7 @@
 "use client";
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 export default function Hero() {
   const [displayText, setDisplayText] = useState('');
@@ -31,12 +32,12 @@ export default function Hero() {
                         a software engineer and full stack developer
                     </p>
                     <div className="flex justify-left space-x-4">
-                        <a href="#about" className="text-gray-700 bg-gradient-to-b from-transparent to-white/20 backdrop-blur-lg border border-white/20 hover:text-blue-600 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/50 px-3 py-2 rounded-md transition-all duration-300">
+                        <Link href="/resume/" className="text-gray-700 bg-gradient-to-b from-transparent to-white/20 backdrop-blur-lg border border-white/20 hover:text-blue-600 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/50 px-3 py-2 rounded-md transition-all duration-300">
                         view my resume
-                        </a>
-                        <a href="#experience" className="text-gray-700 bg-gradient-to-b from-transparent to-white/20 backdrop-blur-lg border border-white/20 hover:text-blue-600 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/50 px-3 py-2 rounded-md transition-all duration-300">
+                        </Link>
+                        <Link href="/projects/" className="text-gray-700 bg-gradient-to-b from-transparent to-white/20 backdrop-blur-lg border border-white/20 hover:text-blue-600 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/50 px-3 py-2 rounded-md transition-all duration-300">
                         see my projects
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div>

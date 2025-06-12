@@ -3,22 +3,8 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 export default function Header() {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      // Show header after scrolling past hero section (100vh)
-      const heroHeight = window.innerHeight;
-      setIsVisible(window.scrollY > heroHeight * 0.8); // Show at 80% of hero height
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
   return (
-    <header className={`fixed top-0 left-0 w-full z-50 bg-white/30 backdrop-blur-md shadow-md transition-transform duration-300 ${
-      isVisible ? 'translate-y-0' : '-translate-y-full'
+    <header className={`fixed top-0 left-0 w-full z-50 bg-white/30 backdrop-blur-md shadow-md transition-transform duration-300 '-translate-y-full'
     }`}>
       <nav className="max-w-6xl mx-auto flex justify-between items-center p-4">
         <div className="flex flex-col">
@@ -30,6 +16,7 @@ export default function Header() {
         <div className="hidden md:flex space-x-6">
           <Link href="/resume/" className="text-gray-700 hover:text-blue-600 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/50 px-3 py-2 rounded-md transition-all duration-300">view my resume</Link>
           <Link href="/projects/" className="text-gray-700 hover:text-blue-600 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/50 px-3 py-2 rounded-md transition-all duration-300">see my projects</Link>
+          <Link href="/" className="text-gray-700 hover:text-blue-600 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/50 px-3 py-2 rounded-md transition-all duration-300">go home</Link>
         </div>
         {/* Mobile menu button */}
         <button className="md:hidden">
