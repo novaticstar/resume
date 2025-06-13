@@ -67,7 +67,7 @@ export default function Resume() {
                 <ul className="space-y-2 mb-4">
                   <li className="flex items-start">
                     <span className="text-blue-600 mr-3 mt-1">•</span>
-                    <span>built and shipped full-stack features using react, typescript, and node.js for an empathy-based "human currency" platform.</span>
+                    <span>built and shipped full-stack features using react, typescript, and flask for an ai empathy-based “Human Currency” platform.</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-600 mr-3 mt-1">•</span>
@@ -79,7 +79,7 @@ export default function Resume() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-600 mr-3 mt-1">•</span>
-                    <span>collaborated in an agile environment, participating in daily stand-ups and sprint reviews.</span>
+                    <span>designed and developed a custom empathy-driven language model using python, tensorflow, pytorch, and other tools to generate user-tailored suggestions and enhance llm capabilities.</span>
                   </li>
                 </ul>
                 <div className="bg-blue-50 rounded-lg p-4">
@@ -128,6 +128,10 @@ export default function Resume() {
                   <li className="flex items-start">
                     <span className="text-blue-600 mr-3 mt-1">•</span>
                     <span>transitioned into technical exploration, learning and applying aws, angular, and figma prototyping tools.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-3 mt-1">•</span>
+                    <span>developed an ai/ml-powered model to streamline and enhance the efficiency of government contract drafting processes.</span>
                   </li>
                 </ul>
                 <div className="bg-blue-50 rounded-lg p-4">

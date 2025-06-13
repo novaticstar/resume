@@ -26,3 +26,6 @@ export default function Home() {
     </div>
   );
 }
+
+// TODO: add links to project scroll items, add more information to home page, include more sections, blog section, etc.
+// TODO: add animations to hero section, add more projects, improve styling, add more content to about me section, add more sections like skills, education, etc.
