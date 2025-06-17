@@ -59,9 +59,34 @@ export default function Resume() {
             </div>
             
             <div className="space-y-8">
+
               <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                  <h3 className="text-xl font-bold text-gray-800">website application developer intern – astor perkins</h3>
+                  <h3 className="text-xl font-bold text-gray-800">software engineer intern – narb</h3>
+                  <span className="text-gray-600 italic text-sm md:text-base">june 2025 – august 2025 | remote, united states</span>
+                </div>
+                <ul className="space-y-2 mb-4">
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-3 mt-1">•</span>
+                    <span>developed and maintained mobile features for narby and narbl using React Native, TypeScript, and Next.js in a fast-paced startup environment.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-3 mt-1">•</span>
+                    <span>integrated multi-LLM APIs (OpenAI, Anthropic) to support real-time chatbot functionality and structured fact validation workflows.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-3 mt-1">•</span>
+                    <span>contributed to narb’s open-source ecosystem with clean, well-documented code and participated in sprint planning, async standups, and code reviews.</span>
+                  </li>
+                </ul>
+                <div className="bg-blue-50 rounded-lg p-4">
+                  <p className="text-gray-700"><strong className="text-blue-800">impact:</strong> developed and designed with machine learning and artificial intelligence implementation as our focus, building innovative ideas with creative solutions.</p>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow">
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                  <h3 className="text-xl font-bold text-gray-800">software engineer intern – astor perkins</h3>
                   <span className="text-gray-600 italic text-sm md:text-base">june 2025 – august 2025 | remote, united states</span>
                 </div>
                 <ul className="space-y-2 mb-4">
