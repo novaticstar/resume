@@ -12,7 +12,7 @@ export default function Resume() {
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">matthew martin</h1>
             <p className="text-xl text-gray-600 mb-4">software engineer & full stack developer</p>
             <p className="text-lg text-gray-500">university of virginia • computer science • class of 2026</p>
-            <p className="text-lg text-gray-500 mt-2">exploring the intersection of technology and human experience</p>
+            <p className="text-lg text-gray-500 mt-2 italic">exploring the intersection of technology and human experience</p>
           </div>
         </section>
 
