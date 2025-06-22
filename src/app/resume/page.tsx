@@ -174,8 +174,70 @@ export default function Resume() {
               <div className="w-12 h-1 bg-blue-600 mr-4"></div>
               <h2 className="text-3xl font-bold text-gray-900">highlight project summaries</h2>
             </div>
-            
-            <div className="space-y-6">
+              <div className="space-y-6">
+              <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-bold text-gray-800 mb-3">legiswatch</h3>
+                <p className="mb-4 text-gray-700"><strong className="text-blue-800">purpose:</strong> real-time bill tracking and notification system for compliance and policy teams. built to streamline legislative monitoring with ai-powered summarization and automated alerts.</p>
+                <ul className="space-y-2 mb-4">
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-3 mt-1">•</span>
+                    <span>developed full-stack web application using flask backend with congress api integration for real-time bill data.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-3 mt-1">•</span>
+                    <span>implemented ai-powered bill summarization using advanced language models to provide concise, actionable insights.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-3 mt-1">•</span>
+                    <span>built comprehensive notification system with email alerts, keyword tracking, and customizable monitoring preferences.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-3 mt-1">•</span>
+                    <span>designed responsive bootstrap frontend with intuitive dashboard for bill tracking, filtering, and user management.</span>
+                  </li>
+                </ul>
+                <details className="group">
+                  <summary className="cursor-pointer font-semibold text-blue-700 hover:text-blue-800 transition-colors flex items-center">
+                    <span>key features & implementation</span>
+                    <svg className="w-4 h-4 ml-2 transform group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </summary>
+                  <div className="mt-3 bg-gray-50 rounded-lg p-4">
+                    <ul className="space-y-1">
+                      <li className="flex items-start">
+                        <span className="text-gray-400 mr-3 mt-1">•</span>
+                        <span className="text-gray-700">real-time bill tracking with propublica congress api</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-gray-400 mr-3 mt-1">•</span>
+                        <span className="text-gray-700">ai-powered bill summarization and analysis</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-gray-400 mr-3 mt-1">•</span>
+                        <span className="text-gray-700">automated email notification system</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-gray-400 mr-3 mt-1">•</span>
+                        <span className="text-gray-700">keyword-based bill monitoring and filtering</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-gray-400 mr-3 mt-1">•</span>
+                        <span className="text-gray-700">responsive dashboard with bill search and user preferences</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-gray-400 mr-3 mt-1">•</span>
+                        <span className="text-gray-700">secure user authentication and session management</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-gray-400 mr-3 mt-1">•</span>
+                        <span className="text-gray-700">stack: python, flask, propublica api, llm integration, bootstrap, javascript</span>
+                      </li>
+                    </ul>
+                  </div>
+                </details>
+              </div>
+
               <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow">
                 <h3 className="text-xl font-bold text-gray-800 mb-3">kitchenshare</h3>
                 <p className="mb-4 text-gray-700"><strong className="text-blue-800">purpose:</strong> django-based web app for sharing and managing kitchen items in a community. supports user roles, item borrowing, collection management, issue reporting, messaging, and moderation.</p>
@@ -550,7 +612,7 @@ export default function Resume() {
             <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-6">
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
                 {[
-                  'python', 'java', 'c', 'javascript', 'typescript', 'react', 'node.js', 'django',
+                  'python', 'java', 'c', 'javascript', 'typescript', 'react', 'node.js', 'django', 'flask',
                   'rest apis', 'postgresql', 'sql', 'aws', 'docker', 'github actions', 'ci/cd',
                   'linux', 'networking', 'cybersecurity', 'data structures & algorithms', 'software testing',
                   'agile/scrum', 'project management', 'figma', 'jira', 'trello', 'vs code',

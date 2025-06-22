@@ -2,8 +2,15 @@ import Header from "../../components/HeaderNoScroll";
 import Footer from "../../components/Footer";
 import Link from "next/link";
 
-export default function Projects() {
-  const projects = [
+export default function Projects() {  const projects = [
+    {
+      title: "legiswatch",
+      description: "real-time bill tracker & notifier for compliance and policy teams",
+      tech: ["Python", "Flask", "ProPublica API", "Bootstrap", "JavaScript", "AI/LLM"],
+      status: "completed",
+      link: "/projects/legiswatch",
+      category: "full-stack web development"
+    },
     {
       title: "kitchenshare",
       description: "django-based web app for sharing and managing kitchen items in a community",
@@ -122,11 +129,10 @@ export default function Projects() {
               <div className="w-12 h-1 bg-blue-600 mr-4"></div>
               <h2 className="text-3xl font-bold text-gray-900">technologies used</h2>
             </div>
-            <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-6">
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+            <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-6">              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
                 {[
-                  'react', 'react native', 'django', 'node.js', 'typescript', 'python',
-                  'postgresql', 'supabase', 'tailwind css', 'bootstrap', 'ai/ml', 'hugging face',
+                  'react', 'react native', 'django', 'flask', 'node.js', 'typescript', 'python',
+                  'postgresql', 'supabase', 'propublica api', 'tailwind css', 'bootstrap', 'ai/ml', 'hugging face',
                   'google oauth', 'heroku', 'expo', 'cybersecurity', 'linux', 'penetration testing'
                 ].map((tech, index) => (
                   <span key={index} className="bg-gradient-to-r from-blue-100 to-blue-50 text-blue-800 px-3 py-2 rounded-full text-sm font-medium hover:from-blue-200 hover:to-blue-100 transition-colors text-center">
