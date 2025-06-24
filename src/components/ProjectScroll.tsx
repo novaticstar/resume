@@ -22,6 +22,13 @@ export default function ProjectScroll() {
       color: "bg-gradient-to-br from-white via-purple-50 to-purple-300",
     },
     {
+      name: "LegisWatch",
+      desc: "Full-stack application with Flask and React, using Congress API and HuggingFace for Bill tracking and summarization",
+      downloads: "Web App",
+      stars: "In Development",
+      color: "bg-gradient-to-br from-white via-pink-50 to-pink-300",
+    },
+    {
       name: "KitchenShare",
       desc: "Full-stack application with Django and React, using AWS for item storage",
       downloads: "Web App",
